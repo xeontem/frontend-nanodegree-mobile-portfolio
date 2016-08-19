@@ -524,7 +524,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 32; i++) {
+  for (var i = 0; i < 32; i++) { // because I see only 32 pizzas on screen
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
