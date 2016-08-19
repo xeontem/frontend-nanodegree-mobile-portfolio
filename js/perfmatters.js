@@ -7,8 +7,7 @@ function logCRP() {
     complete = t.domComplete - t.domLoading;
   var stats = document.getElementById("crp-stats");
   stats.textContent = 'DCL: ' + dcl + 'ms, onload: ' + complete + 'ms';
-  console.log(stats.textContent);
-}
+ }
 
 window.addEventListener("load", function(event) {
   logCRP();
